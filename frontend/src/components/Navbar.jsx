@@ -41,10 +41,10 @@ const Navbar = () => {
             </Link>
 
             <ul className="hidden md:flex space-x-5 text-gray-800 font-medium">
-                <li><Link to="/students" className="text-[#04668D] hover:text-[#1c353f]] transition">HOW IT WORKS</Link></li>
-                <li><Link to="/donors" className="text-[#04668D] hover:text-[#1c353f]] transition">PORTFOLIO</Link></li>
-                <li><Link to="/company" className="text-[#04668D] hover:text-[#1c353f]] transition">GIFT CARDS</Link></li>
-                <li><Link to="/company" className="text-[#04668D] hover:text-[#1c353f]] transition">SHOP</Link></li>
+                <li><Link to="/howItWorks" className="text-[#04668D] hover:text-[#1c353f]] transition">HOW IT WORKS</Link></li>
+                <li><Link to="/portfolio" className="text-[#04668D] hover:text-[#1c353f]] transition">PORTFOLIO</Link></li>
+                <li><Link to="/giftCards" className="text-[#04668D] hover:text-[#1c353f]] transition">GIFT CARDS</Link></li>
+                <li><Link to="/shop" className="text-[#04668D] hover:text-[#1c353f]] transition">SHOP</Link></li>
             </ul>
 
             <div className="hidden md:flex space-x-4 items-center">
@@ -101,7 +101,7 @@ const Navbar = () => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/signup" className="block w-full text-center bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition duration-300" onClick={() => setMenuOpen(false)}>
+                                        <Link to="/signup" className="block w-full text-center bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-[#1c353f] transition duration-300" onClick={() => setMenuOpen(false)}>
                                         Join Now
                                     </Link>
                                 </li>

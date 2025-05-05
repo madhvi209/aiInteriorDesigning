@@ -4,6 +4,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import connectDB from "./utils/db.js";
 import userRoute from "./routes/userRoutes.js";
+import designerRoute from "./routes/designerRoutes.js";
 
 
 
@@ -28,6 +29,7 @@ const PORT = process.env.PORT || 8000;
 
 //api's
 app.use("/api/v1/user", userRoute);
+app.use("/api/v1/designer", designerRoute);
 
 
 
